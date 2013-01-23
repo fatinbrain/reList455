@@ -1,0 +1,64 @@
+reList455
+
+About
+=====
+**reList455** is simple events count down application.
+
+Features
+========
+- Local nature: works without `GSM` / `WiFi` connection.
+- Not hungry: little battery consumption.
+- Easy: plain, simple.
+- Explicit: all your events in one list.
+
+New features
+============
+- Import/export from/to SDcard.
+- Fast event parsing.
+- Adjustable language and style.
+- Splash screen.
+
+General information
+===================
+**reList455** generates list of upcoming events showing days left to particular event.
+List is sorted to show sooner at the top.
+Customer can add new events and edit / remove existing.
+
+Alarm periods
+=============
+Each event has list of alarm periods attached to it.
+Main feature of application is possibility of advanced setup of event alarm periods.
+Customer can add desired count of periods.
+For example, for birthday event you can create period to make every year alarm.
+For birthday event of your little child you can create monthly alarm event to know how many
+days left to next month anniversary.
+And for birthday event of your uncle it is possibly reasonable to have 5-years alarm event.
+
+
+reList455 Yellow
+Кратко
+======
+**reList455** - приложение обратного отсчёта оставшихся дней до событий.
+
+Особенности
+===========
+- Локальность: приложение работает независимо от наличия `GSM` / `WiFi` сетей.
+- Энерго эффективность: низкий уровень потребления энергии батареи.
+- Простота
+- Очевидность: все события одним списком.
+
+Общая информация
+================
+**reList455** генерирует список грядущих событий с указанием количества оставшихся до них дней.
+Список отсортирован таким образом, что ближайшие события показаны выше.
+Пользователь может создавать, изменять и удалять события.
+
+Периоды повтора
+===============
+Каждое событие содержит список периодов повтора.
+Отличительной особенностью приложения является возможность настройки этих периодов.
+Например, для своего дня рождения можно создать ежегодное событие;
+для дня рождения ребёнка имеет смысл задать ежемесячный период повтора, чтобы знать сколько
+осталось дней до следующего месячного юбилея.
+А для дня рождения дальнего родственника можно установить десятилетний период,
+чтобы знать когда у него произойдёт следующий большой юбилей.

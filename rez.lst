@@ -1,0 +1,20 @@
+.res IMPORT
+.image "img/upload.png"
+
+.res EXPORT
+.image "img/download.png"
+
+.res OPTIONS
+.image "img/tune.png"
+
+.res DEBUG
+.image "img/bomb.png"
+
+.res NEW
+.image "img/add.png"
+
+.res CLOSE
+.image "img/close.png"
+
+.res LOGO
+.image "logo.png"
