@@ -16,7 +16,7 @@ DaysTo_s grabDt(DateTime initDate, Period prd) {
 	switch (prd.Letter) {
 	case 'y':
 	case 'Y': {
-		printf("initdate:%d.%d.%d\n", initDate.getYear(), initDate.getMonth(), initDate.getDay());
+		//-printf("initdate:%d.%d.%d\n", initDate.getYear(), initDate.getMonth(), initDate.getDay());
 		int factor = (dtToday.getYear() - initDate.getYear()) / prd.Factor;
 
 		int nextAlarmYear = initDate.getYear() + factor * prd.Factor;
@@ -26,14 +26,14 @@ DaysTo_s grabDt(DateTime initDate, Period prd) {
 			DateTime dtNextAlarm(nextAlarmYear, initDate.getMonth(),
 					initDate.getDay());
 
-			printDt(dtNextAlarm, "pre_nextalarm");
+			//-printDt(dtNextAlarm, "pre_nextalarm");
 
 			if (dtNextAlarm.getTicks() + 86400 < dtToday.getTicks()) {
-				printf("incr alarm");
+				//-printf("incr alarm");
 				dtNextAlarm = dtNextAlarm.addYears(prd.Factor);
 			}
 
-			printDt(dtNextAlarm, "nextalarm");
+			//-printDt(dtNextAlarm, "nextalarm");
 
 			TimeSpan ts(dtNextAlarm.getTicks() - dtToday.getTicks());
 			dts.DaysTo = (int) ts.getTotalDays();
@@ -60,7 +60,7 @@ DaysTo_s grabDt(DateTime initDate, Period prd) {
 			nextAlarm = mktime(&tmAlarm);
 		}
 
-		printDt(nextAlarm, "nextalarm");
+		//-printDt(nextAlarm, "nextalarm");
 
 		TimeSpan ts(nextAlarm - dtToday.getTicks());
 		dts.DaysTo = (int) ts.getTotalDays();
@@ -70,7 +70,7 @@ DaysTo_s grabDt(DateTime initDate, Period prd) {
 	}
 
 	}
-	printf("***dt get: dt%d per%d\n", dts.DaysTo, dts.FactorCount);
+	//-printf("***dt get: dt%d per%d\n", dts.DaysTo, dts.FactorCount);
 	return dts;
 }
 
