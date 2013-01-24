@@ -1,9 +1,9 @@
 #include "Tools.h"
 
 void printDt(DateTime dt, String s) {
-	printf("%s[%02d.%02d.%02d %02d:%02d:%02d]\n", s.c_str(),
-			dt.getYear() + 1900, dt.getMonth() + 1, dt.getDay(), dt.getHour(),
-			dt.getMinute(), dt.getSecond());
+//	printf("%s[%02d.%02d.%02d %02d:%02d:%02d]\n", s.c_str(),
+//			dt.getYear() + 1900, dt.getMonth() + 1, dt.getDay(), dt.getHour(),
+//			dt.getMinute(), dt.getSecond());
 }
 
 DaysTo_s grabDt(DateTime initDate, Period prd) {
